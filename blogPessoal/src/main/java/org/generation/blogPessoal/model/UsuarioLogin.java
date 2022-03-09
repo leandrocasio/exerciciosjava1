@@ -9,6 +9,10 @@ public class UsuarioLogin {
 	private String usuario;
 
 	private String senha;
+	
+	private String foto;
+	
+	private String token;
 
 	public Long getId() {
 		return id;
@@ -58,8 +62,5 @@ public class UsuarioLogin {
 		this.token = token;
 	}
 
-	private String foto;
-	
-	private String token;
 
 }
